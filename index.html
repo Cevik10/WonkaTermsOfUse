@@ -2,60 +2,412 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Captain’s Log: Stardate – Support</title>
+  <title>Wonka Kids – Terms of Use</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif;
-      max-width: 720px;
-      margin: 40px auto;
-      padding: 0 16px;
-      line-height: 1.6;
-      color: #111827;
+    :root {
+      --primary-color: #8B4513; /* Chocolate brown for Wonka theme */
+      --secondary-color: #D2691E; /* Golden brown */
+      --accent-color: #FFD700; /* Gold for highlights */
+      --text-color: #333;
+      --bg-color: #FFF8DC; /* Light cream background */
+      --border-color: #DEB887; /* Burlywood for subtle borders */
     }
-    h1 {
-      font-size: 28px;
-      margin-bottom: 12px;
+    body {
+      font-family: 'Georgia', serif; /* More elegant, readable font */
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.7;
+      color: var(--text-color);
+      background: linear-gradient(to bottom, #FFF8DC, #F5F5DC); /* Subtle gradient */
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      background: var(--accent-color);
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+      color: var(--primary-color);
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+      font-weight: bold;
+    }
+    .last-updated {
+      font-style: italic;
+      color: var(--secondary-color);
+      margin-top: 10px;
+    }
+    .welcome {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.7);
+      border-left: 5px solid var(--primary-color);
+      border-radius: 5px;
     }
     h2 {
-      margin-top: 24px;
-      font-size: 20px;
+      margin-top: 35px;
+      font-size: 24px;
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 10px;
+      position: relative;
     }
-    a { text-decoration: none; color: #2563eb; }
+    h2::before {
+      content: "🍫"; /* Fun Wonka-themed icon */
+      margin-right: 10px;
+      font-size: 28px;
+    }
+    p {
+      margin-bottom: 16px;
+      text-align: justify;
+    }
+    ul {
+      margin: 12px 0;
+      padding-left: 25px;
+    }
+    li {
+      margin-bottom: 8px;
+      position: relative;
+    }
+    .bullet-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .bullet-list li::before {
+      content: "✨";
+      position: absolute;
+      left: -25px;
+      color: var(--accent-color);
+    }
+    .sub-bullet-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .sub-bullet-list li::before {
+      content: "⭐";
+      position: absolute;
+      left: -40px;
+      color: var(--secondary-color);
+    }
+    strong {
+      color: var(--primary-color);
+    }
+    a {
+      text-decoration: none;
+      color: var(--accent-color);
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: var(--primary-color);
+      text-decoration: underline;
+    }
+    .contact-section {
+      background: rgba(255, 248, 220, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      border: 1px solid var(--border-color);
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      padding: 20px;
+      background: var(--primary-color);
+      color: white;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+    footer a {
+      color: var(--accent-color);
+    }
+    .thank-you {
+      text-align: center;
+      font-style: italic;
+      color: var(--secondary-color);
+      margin: 30px 0;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+      border: 1px dashed var(--border-color);
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+      header h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Captain’s Log: Stardate – Support</h1>
+  <header>
+    <h1>Wonka Kids</h1>
+    <p class="last-updated">Terms of Use – Last Updated: December 2025</p>
+  </header>
 
-  <p>
-    This page provides support information for the <strong>Captain’s Log: Stardate</strong> mobile application.
-    If you have any questions, need assistance, or want to report an issue, you’re in the right place.
-  </p>
-
-  <h2>Contact</h2>
-  <p>
-    For technical issues, feature requests, feedback, account matters, or general inquiries, please contact:
-  </p>
-  <p>
-    <strong>Email:</strong>
-    <a href="mailto:hakanxcevik7@gmail.com">hakanxcevik7@gmail.com</a>
+  <p class="welcome">
+    Welcome to Wonka Kids! These Terms of Use ("Terms") govern your use of the Wonka Kids mobile application ("App"). By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.
   </p>
 
-  <h2>Account & Data</h2>
+  <h2>1. ACCEPTANCE OF TERMS</h2>
   <p>
-    You may request data deletion, log removal, or account-related assistance via email.
-    Please contact us from the email address you used inside the app and include any relevant details.
+    By accessing or using Wonka Kids, you acknowledge that you have read, understood, and agree to be bound by these Terms and our <a href="https://cevik10.github.io/WonkaPrivacyPolicy/">Privacy Policy</a>. If you are a parent or guardian, you agree to these Terms on behalf of your child and are responsible for their use of the App.
   </p>
 
-  <h2>Abuse & Safety</h2>
+  <h2>2. DESCRIPTION OF SERVICE</h2>
   <p>
-    To report inappropriate content, bugs, or security concerns, email us with screenshots or descriptions.
-    All reports are reviewed according to our guidelines and applicable laws.
+    Wonka Kids is an educational memory game application designed for children ages 3-8. The App provides:
+  </p>
+  <ul class="bullet-list">
+    <li>Memory card matching games across various educational categories</li>
+    <li>Quiz challenges with multiple stages</li>
+    <li>Progress tracking and achievement systems</li>
+    <li>Daily missions and rewards</li>
+    <li>Collection of virtual cards (Wonka Cards)</li>
+  </ul>
+
+  <h2>3. ELIGIBILITY</h2>
+  <ul class="bullet-list">
+    <li>The App is designed for children ages 3-8, but may be used by users of all ages</li>
+    <li>Users under 13 must have parental or guardian supervision</li>
+    <li>Parents and guardians are responsible for monitoring their children's use of the App</li>
+    <li>By using the App, you represent that you are at least 13 years old or have parental consent</li>
+  </ul>
+
+  <h2>4. USER ACCOUNTS</h2>
+  <ul class="bullet-list">
+    <li>Wonka Kids does not require account registration</li>
+    <li>All data is stored locally on your device</li>
+    <li>No personal information is collected or stored on external servers</li>
+    <li>You are responsible for maintaining the security of your device</li>
+  </ul>
+
+  <h2>5. ACCEPTABLE USE</h2>
+  <p>
+    You agree to use the App only for lawful purposes and in accordance with these Terms. You agree NOT to:
+  </p>
+  <ul class="bullet-list">
+    <li>Use the App in any way that violates applicable laws or regulations</li>
+    <li>Attempt to reverse engineer, decompile, or disassemble the App</li>
+    <li>Modify, adapt, or create derivative works based on the App</li>
+    <li>Remove or alter any copyright, trademark, or other proprietary notices</li>
+    <li>Use the App to transmit any harmful code or malware</li>
+    <li>Interfere with or disrupt the App's functionality</li>
+  </ul>
+
+  <h2>6. INTELLECTUAL PROPERTY</h2>
+  <ul class="bullet-list">
+    <li>All content, features, and functionality of the App are owned by Wonka Kids and are protected by international copyright, trademark, and other intellectual property laws</li>
+    <li>The App, including its design, graphics, text, images, and software, is the exclusive property of Wonka Kids</li>
+    <li>You may not copy, reproduce, distribute, or create derivative works without express written permission</li>
+    <li>"Wonka Kids" and related trademarks are the property of their respective owners</li>
+  </ul>
+
+  <h2>7. USER CONTENT</h2>
+  <ul class="bullet-list">
+    <li>The App allows you to enter a child's name for personalization purposes</li>
+    <li>This information is stored locally on your device only</li>
+    <li>You retain ownership of any content you create within the App</li>
+    <li>You grant Wonka Kids a license to use such content solely for the purpose of providing the App's services</li>
+  </ul>
+
+  <h2>8. PROHIBITED ACTIVITIES</h2>
+  <p>
+    You may not:
+  </p>
+  <ul class="bullet-list">
+    <li>Use automated systems or bots to interact with the App</li>
+    <li>Attempt to gain unauthorized access to any part of the App</li>
+    <li>Use the App to collect information about other users</li>
+    <li>Impersonate any person or entity</li>
+    <li>Engage in any activity that could harm the App or other users</li>
+  </ul>
+
+  <h2>9. DISCLAIMER OF WARRANTIES</h2>
+  <p>
+    THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+  </p>
+  <ul class="bullet-list">
+    <li>WARRANTIES OF MERCHANTABILITY</li>
+    <li>FITNESS FOR A PARTICULAR PURPOSE</li>
+    <li>NON-INFRINGEMENT</li>
+    <li>ACCURACY OR RELIABILITY OF INFORMATION</li>
+  </ul>
+  <p>
+    Wonka Kids does not warrant that:
+  </p>
+  <ul class="bullet-list">
+    <li>The App will be uninterrupted or error-free</li>
+    <li>Defects will be corrected</li>
+    <li>The App is free of viruses or other harmful components</li>
+  </ul>
+
+  <h2>10. LIMITATION OF LIABILITY</h2>
+  <p>
+    TO THE MAXIMUM EXTENT PERMITTED BY LAW, WONKA KIDS SHALL NOT BE LIABLE FOR:
+  </p>
+  <ul class="bullet-list">
+    <li>ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES</li>
+    <li>LOSS OF PROFITS, DATA, OR USE</li>
+    <li>PERSONAL INJURY OR PROPERTY DAMAGE</li>
+    <li>ANY DAMAGES ARISING FROM YOUR USE OR INABILITY TO USE THE APP</li>
+  </ul>
+
+  <h2>11. INDEMNIFICATION</h2>
+  <p>
+    You agree to indemnify, defend, and hold harmless Wonka Kids, its owners, employees, and affiliates from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
+  </p>
+  <ul class="bullet-list">
+    <li>Your use of the App</li>
+    <li>Your violation of these Terms</li>
+    <li>Your violation of any rights of another party</li>
+  </ul>
+
+  <h2>12. CHILDREN'S PRIVACY</h2>
+  <ul class="bullet-list">
+    <li>Wonka Kids is designed with children's privacy in mind</li>
+    <li>We comply with the Children's Online Privacy Protection Act (COPPA)</li>
+    <li>We do not knowingly collect personal information from children under 13</li>
+    <li>Parents and guardians should review our <a href="https://cevik10.github.io/WonkaPrivacyPolicy/">Privacy Policy</a> for more information</li>
+  </ul>
+
+  <h2>13. PARENTAL RESPONSIBILITIES</h2>
+  <p>
+    Parents and guardians are responsible for:
+  </p>
+  <ul class="bullet-list">
+    <li>Monitoring their children's use of the App</li>
+    <li>Ensuring appropriate use of the App</li>
+    <li>Reviewing and understanding these Terms and the Privacy Policy</li>
+    <li>Deciding whether the App is appropriate for their child</li>
+  </ul>
+
+  <h2>14. MODIFICATIONS TO THE APP</h2>
+  <p>
+    Wonka Kids reserves the right to:
+  </p>
+  <ul class="bullet-list">
+    <li>Modify, update, or discontinue the App at any time</li>
+    <li>Add or remove features without prior notice</li>
+    <li>Release updates that may require you to download new versions</li>
+    <li>We are not obligated to provide support or maintenance</li>
+  </ul>
+
+  <h2>15. TERMINATION</h2>
+  <ul class="bullet-list">
+    <li>You may stop using the App at any time by deleting it from your device</li>
+    <li>Wonka Kids may terminate or suspend access to the App at any time, with or without cause</li>
+    <li>Upon termination, your right to use the App will immediately cease</li>
+    <li>All data stored locally on your device will remain until you delete the App</li>
+  </ul>
+
+  <h2>16. DATA DELETION</h2>
+  <ul class="bullet-list">
+    <li>You can delete all App data at any time through the Settings menu</li>
+    <li>Deleting the App from your device will remove all local data</li>
+    <li>Wonka Kids does not store your data on external servers, so deletion is immediate and permanent</li>
+  </ul>
+
+  <h2>17. THIRD-PARTY SERVICES</h2>
+  <p>
+    The App may use third-party services (such as Firebase) for basic functionality. Your use of these services is subject to their respective terms and privacy policies.
   </p>
 
-  <h2>Legal</h2>
+  <h2>18. APPLE APP STORE TERMS</h2>
   <p>
-    &copy; 2025 Captain’s Log: Stardate. All rights reserved.
+    If you downloaded the App from the Apple App Store:
   </p>
+  <ul class="bullet-list">
+    <li>These Terms are between you and Wonka Kids, not Apple</li>
+    <li>Apple is not responsible for the App or its content</li>
+    <li>Apple has no obligation to provide support for the App</li>
+    <li>In case of App failure, you may notify Apple for a refund (subject to Apple's policies)</li>
+  </ul>
+
+  <h2>19. CHANGES TO TERMS</h2>
+  <p>
+    Wonka Kids reserves the right to modify these Terms at any time. We will:
+  </p>
+  <ul class="bullet-list">
+    <li>Update the "Last Updated" date when changes are made</li>
+    <li>Notify users of significant changes through the App or other means</li>
+    <li>Your continued use of the App after changes constitutes acceptance of the new Terms</li>
+  </ul>
+
+  <h2>20. GOVERNING LAW</h2>
+  <p>
+    These Terms shall be governed by and construed in accordance with the laws of [Your Jurisdiction], without regard to its conflict of law provisions.
+  </p>
+
+  <h2>21. DISPUTE RESOLUTION</h2>
+  <p>
+    Any disputes arising from these Terms or your use of the App shall be resolved through:
+  </p>
+  <ul class="bullet-list">
+    <li>Good faith negotiation</li>
+    <li>If negotiation fails, through binding arbitration or mediation as applicable by law</li>
+  </ul>
+
+  <h2>22. SEVERABILITY</h2>
+  <p>
+    If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.
+  </p>
+
+  <h2>23. ENTIRE AGREEMENT</h2>
+  <p>
+    These Terms, together with the <a href="https://cevik10.github.io/WonkaPrivacyPolicy/">Privacy Policy</a>, constitute the entire agreement between you and Wonka Kids regarding the use of the App and supersede all prior agreements.
+  </p>
+
+  <h2>24. CONTACT INFORMATION</h2>
+  <div class="contact-section">
+    <p>
+      If you have questions about these Terms, please contact us at:
+    </p>
+    <p>
+      <strong>Email:</strong>
+      <a href="mailto:hakanxcevik7@gmail.com">hakanxcevik7@gmail.com</a>
+    </p>
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/Cevik10" target="_blank">https://github.com/Cevik10</a>
+    </p>
+    <p>
+      <strong>Website:</strong> [Your Website URL]
+    </p>
+  </div>
+
+  <h2>25. ACKNOWLEDGMENT</h2>
+  <p>
+    By using Wonka Kids, you acknowledge that:
+  </p>
+  <ul class="bullet-list">
+    <li>You have read and understood these Terms</li>
+    <li>You agree to be bound by these Terms</li>
+    <li>You are responsible for compliance with all applicable laws</li>
+    <li>If you are a parent or guardian, you agree on behalf of your child</li>
+  </ul>
+
+  <div class="thank-you">
+    <p>
+      Thank you for using Wonka Kids! We hope you and your child enjoy our educational gaming experience.
+    </p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Wonka Kids. All rights reserved.</p>
+    <p>Developed with ❤️ by <a href="https://github.com/Cevik10" target="_blank">Cevik10</a></p>
+  </footer>
 </body>
 </html>
